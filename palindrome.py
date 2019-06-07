@@ -1,6 +1,7 @@
-n1=int(input())
-a2=n1%11
-if a2==0: 
+n=int(input())
+n<=1000
+a=n%111
+if a==0: 
 print ("yes")
 else:
 print("no")
