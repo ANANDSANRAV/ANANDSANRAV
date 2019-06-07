@@ -1,11 +1,11 @@
-y=int(input())
+t=int(input())
 sum=0
-temp=y
+temp=t
 while temp>0:
- d=temp%10
- sum+=d**3
+ c=temp%10
+ sum+=c**3
  temp//=10
-if(y==sum):
+if(t==sum):
  print("yes")
 else:
  print("no")
